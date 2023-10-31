@@ -1,0 +1,48 @@
+.home {
+    display: flex;
+    align-items: center;
+    padding-block: 4rem;
+}
+
+.home > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+.home h1 {
+    color: var(--purple);
+    font-size: 5.5rem;
+}
+
+.home h2 {
+    color: var(--blue);
+    font-size: 2rem;
+}
+
+.home > div p {
+    color: var(--gray);
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    margin-top: 1.3rem;
+}
+
+.home img {
+    width: 45vw;
+    animation-duration: 3.5s;
+    animation-name: slidein;
+}
+
+.home a {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    text-align: end;
+}
+
+.home a:hover {
+    color: var(--purple);
+}

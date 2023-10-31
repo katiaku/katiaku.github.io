@@ -1,0 +1,26 @@
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray);
+    line-height: 2rem;
+}
+
+.info div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    width: 60%;
+}
+
+.info a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.info a:hover {
+    color: var(--purple);
+    transition: color 1s linear;
+}
